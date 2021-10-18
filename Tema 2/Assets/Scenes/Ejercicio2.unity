@@ -199,13 +199,140 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378221340}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.16160926, y: -0.10113559, z: 0.01665222, w: 0.9815176}
+  m_LocalPosition: {x: -0.05, y: 2.17, z: -5.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 18.7, y: -11.766, z: 0}
+--- !u!1 &1184581825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1184581830}
+  - component: {fileID: 1184581829}
+  - component: {fileID: 1184581828}
+  - component: {fileID: 1184581827}
+  - component: {fileID: 1184581826}
+  - component: {fileID: 1184581831}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1184581826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184581825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027563da9b63217438d5ff7f6fb5eb6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1184581827
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184581825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1184581828
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184581825}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1184581829
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184581825}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1184581830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184581825}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.621, y: 0.7803936, z: -0.68953216}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1184581831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184581825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d4f7028c2eeb994fa161beb808d79ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAge: 15
+  playerName: Dani
+  gameOver: 0
+  playerHP: 10
+  isCold: 0
+  isRaining: 0
 --- !u!1 &1847744058
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +443,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0a1e38be0f1161749b6d5c471c99b794, type: 2}
     - target: {fileID: 3516424059317955384, guid: ae8248533a9054949a9801d4747b2127, type: 3}
       propertyPath: m_Name
-      value: Ambulancia
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 4297702338474904946, guid: ae8248533a9054949a9801d4747b2127, type: 3}
       propertyPath: m_RootOrder
@@ -376,6 +503,32 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0a1e38be0f1161749b6d5c471c99b794, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae8248533a9054949a9801d4747b2127, type: 3}
+--- !u!1 &2991970506527037584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3516424059317955384, guid: ae8248533a9054949a9801d4747b2127, type: 3}
+  m_PrefabInstance: {fileID: 2991970506527037583}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2991970506527037585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2991970506527037584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2bfd45e7acf1d46aa4c9828be77e94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sound: "\xA1Brum, brum, brum!"
+  name: Car
+  numberWheels: 4
+  hasSiren: 0
+  isOn: 0
+  x: 4
+  y: 2
+  z: 2
+  gasolina: 8.25
 --- !u!1001 &4875768079692502466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -433,3 +586,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6569d269b2af0a479914ef1fb5a2cea, type: 3}
+--- !u!1 &4875768079692502467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6940762733904759982, guid: c6569d269b2af0a479914ef1fb5a2cea, type: 3}
+  m_PrefabInstance: {fileID: 4875768079692502466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4875768079692502468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4875768079692502467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2bfd45e7acf1d46aa4c9828be77e94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sound: "\xA1Ni-no, ni-no!"
+  name: Ambulancia
+  numberWheels: 4
+  hasSiren: 1
+  isOn: 1
+  x: 4
+  y: 2
+  z: 2
+  gasolina: 49.75
